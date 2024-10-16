@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers
+diffusers
+gradio 
+accelerate
+safetensors
+basicsr
+realesrgan
+numpy
+Pillow
