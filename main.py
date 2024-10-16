@@ -89,7 +89,7 @@ def gradio_interface():
             model_selection = gr.Dropdown(label="Select Model", choices=list(models.keys()), value="Anything v3.0 (Best)")
             prompt_text = """1 girl, masterpiece, best quality, absurdres, newest, ruby eyes, fox ears, brown hair, smile, medium boobs, loli, half naked, mini bikini, cute, kawaii, stockings, looking at viewer, sitting on a bed, long black gloves
             """
-            negative_prompt_text = """(hands:1.1), (fingers:1.0), bad anatomy, extra limbs, extra feet
+            negative_prompt_text = """(hands:1.5), (fingers), bad anatomy, extra limbs, extra feet, bad proportions, extra crus, fused crus, three legs, amputation, (vagina:1.5), blurred, texts, extra belly button
             """
             prompt = gr.Textbox(label="Prompt", placeholder="Describe the anime scene...", 
                                 value=prompt_text)
