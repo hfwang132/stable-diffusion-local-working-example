@@ -1,6 +1,6 @@
 # WAIFU DIFFUSION
 
-A local and simple working example to run stable diffusion with anime waifus!
+A local (as long as you have a GPU) and simple working example to run stable diffusion with anime waifus! 
 
 ## Usage
 
